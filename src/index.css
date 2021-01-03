@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Arimo', sans-serif;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -11,8 +10,9 @@
 }
 
 body {
-    background: #2c3e50;
+    background: #2d3436;
     color: white;
+    font-family: 'Kanit', sans-serif;
 }
 
 
@@ -47,6 +47,7 @@ body {
     padding-left: 6px;
     margin-top: 22px;
     overflow: hidden;
+    font-family: 'Arimo', sans-serif;
 }
 
 .timer--clock .clock-display-grp {
@@ -70,7 +71,7 @@ body {
 .timer--clock .clock-display-grp .number-grp .number-grp-wrp .num {
     width: 100%;
     position: relative;
-    height: 157px;
+    height: 158px;
 }
 
 .timer--clock .clock-display-grp .number-grp .number-grp-wrp .num p {
@@ -106,20 +107,19 @@ body {
 }
 
 .reload {
-    width: 125px;
-    height: 14px;
+    margin: auto;
+    height: 8%;
     position: absolute;
     bottom: 50vh;
-    left: 50%;
-    margin-left: -62.5px;
+    left: 45%;
     opacity: 0;
     display: none;
     cursor: pointer;
     z-index: 9999;
 }
 
-.reload:hover svg path {
-    fill: #666;
+.reload:hover {
+    color: #5f27cd;
 }
 
 .reload:hover p {
