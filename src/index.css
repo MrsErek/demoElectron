@@ -108,14 +108,14 @@ body {
 
 .reload {
     margin: auto;
-    height: 8%;
+    height: 11%;
     position: absolute;
     bottom: 50vh;
-    left: 45%;
+    left: 40%;
     opacity: 0;
     display: none;
     cursor: pointer;
-    z-index: 9999;
+    z-index: 1;
 }
 
 .reload:hover {

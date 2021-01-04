@@ -1,6 +1,6 @@
 TweenLite.defaultEase = Expo.easeOut;
 
-initTimer("00:11"); // other ways --> "0:15" "03:5" "5:2"
+initTimer("00:04"); // other ways --> "0:15" "03:5" "5:2"
 
 var reloadBtn = document.querySelector('.reload');
 var timerEl = document.querySelector('.timer');
